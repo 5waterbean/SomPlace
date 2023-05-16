@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,windows,eclipse,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,eclipse,react
+# Created by https://www.toptal.com/developers/gitignore/api/java,eclipse,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,windows
 
 ### Eclipse ###
 .metadata
@@ -93,21 +93,6 @@ local.properties
 hs_err_pid*
 replay_pid*
 
-### react ###
-.DS_*
-logs
-**/*.backup.*
-**/*.back.*
-
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
-
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -134,5 +119,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/java,windows,eclipse,react
-/META-INF/
+# End of https://www.toptal.com/developers/gitignore/api/java,eclipse,windows

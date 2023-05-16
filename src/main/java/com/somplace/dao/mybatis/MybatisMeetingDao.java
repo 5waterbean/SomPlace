@@ -13,11 +13,11 @@ import com.somplace.domain.Meeting;
 @Repository
 public class MybatisMeetingDao implements MeetingDao {
 	@Autowired
-	private MeetingMapper MeetingMapper;
+	private MeetingMapper meetingMapper;
 
 	// 모임 전체 조회
 	public List<Meeting> getMeetingList() throws DataAccessException {
-		return MeetingMapper.getMeetingList();
+		return meetingMapper.getMeetingList();
 	}
 	// 모임 검색
 	
